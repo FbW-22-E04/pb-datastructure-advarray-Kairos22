@@ -60,4 +60,23 @@ function filterFriends (array, query) {
 
 console.log(filterFriends(friends, 'ka'));
 console.log(filterFriends(friends, "e"));
+console.log('-----------------------------4');
 
+// 5. Sum Up
+function sum(arr) {
+  const result = arr.reduce((acc, item) => (acc += item), 0);
+  return result;
+}
+
+console.log(sum([1, 2, 3, 4, 5]));
+console.log(sum([6, 7, 7]));
+console.log('---------------------5');
+
+// 6. Square Root
+function squareRoot(arr) {
+  const result = arr.map((item) => Math.sqrt(item));
+  return result;
+}
+
+console.log(squareRoot([4, 64, 9]));
+console.log('---------------------6');
